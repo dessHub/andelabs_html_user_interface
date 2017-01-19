@@ -18,13 +18,13 @@
      <div>
       <h1 style="text-align: center">Students Records</h1>
      </div>
-     <div class="searc_panel" style="text-align : center">
-       <form>
+     <div class="searc_panel" style="text-align : center; border-style: outset">
+       <br><form>
           Search Student By Admission no:
           <input type="text" name="search" >
 
           <input type="submit" value="Search" style="background-color : green">
-    </form>
+    </form><br>
   </div><br>
      <div class="students_records">
        <div><h2>STUDENT RECORDS</h2>
@@ -133,19 +133,21 @@
 
      <div id="add_student">
        <div><h2>ADD STUDENT</h2></div>
-       <form>
+       <form >
+         <div style="border-style: outset">
           First name:<br>
-          <input type="text" name="firstname" style="width : 100%"><br>
+          <input type="text" name="firstname" style="width : 400px"><br>
           Last name:<br>
-          <input type="text" name="lastname" style="width : 100%"><br>
+          <input type="text" name="lastname" style="width : 400px"><br>
           Admission No:<br>
-          <input type="text" name="adm" style="width : 100%"><br>
+          <input type="text" name="adm" style="width : 400px"><br>
           Class:<br>
-          <input type="text" name="class" style="width : 100%"><br>
+          <input type="text" name="class" style="width : 400px"><br>
           Stream:<br>
           <input type="radio" name="stream" value="green" checked> GREEN<br>
           <input type="radio" name="stream" value="yellow">YELLOW<br>
           <input type="radio" name="stream" value="pink"> PINK<br><br>
+        </div><br>
           <input type="submit" value="Add Student" style="background-color : green">
     </form>
   </div>
